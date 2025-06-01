@@ -368,7 +368,7 @@ def on_closing():
 root.protocol("WM_DELETE_WINDOW", on_closing)
 
 # 添加新的文字标签
-new_text_label = tk.Label(root, text="https://github.com/LiuHanKing/RMD.git")
+new_text_label = tk.Label(root, text="https://github.com/LiuHanKing/RMD/releases")
 new_text_label.pack(pady=10)
 
 # 删除调用检查断点的函数这一行
